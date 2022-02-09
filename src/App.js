@@ -10,7 +10,7 @@ const LazyCalc = lazy(() => import('./Calc/Calc'));
 function App () {
   return(
     <div className="wrapper">
-    <Router basename = '/TestDev'>
+    <Router basename = '/AlexanderBil/TestDev'>
      <Header />
      <Suspense fallback= {<div className='loading'>Loading...</div>}>
        <Switch>
