@@ -1,0 +1,22 @@
+
+.calc{
+  display: flex;
+  flex-direction: column;
+  background-color: silver;
+  flex: 1 0 auto;
+  position: relative;
+}
+
+input{
+  width: 250px;
+  margin-top: 20px;
+}
+
+button {
+  width: 250px;
+  margin: 10px 0px 0px 10px;
+}
+
+.resultInfo{
+  margin: 20px 0px 0px 60px;
+}
